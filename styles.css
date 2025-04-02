@@ -1,0 +1,64 @@
+body {
+    font-family: 'Pacifico', cursive;
+    background: url('https://i.pinimg.com/736x/6c/00/0a/6c000a6f7e46c654ec36fdcc4abcbe79.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 5px #ff69b4;
+}
+
+/* Center the video (camera frame) */
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+/* Style the video */
+video {
+    width: 300px;
+    height: 225px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+/* Center the collage */
+.collage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center; /* Centers the grid horizontally */
+    align-items: center; /* Centers vertically */
+    margin: 20px auto;
+    width: fit-content; /* Adjusts to content size */
+}
+
+/* Style each photo frame */
+.photo-frame {
+    width: 150px;
+    height: 150px;
+    border: 5px solid white;
+    display: block;
+    margin: auto; /* Ensures images are centered */
+}
+
+/* Style buttons */
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
